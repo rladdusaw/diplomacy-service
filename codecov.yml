@@ -1,5 +1,0 @@
-ignore:
-    - "manage.py"
-    - "diplomacyservice/wsgi.py"
-    - "provinces/tests/.*"
-    - "diplomacyservice/config.py"
