@@ -1,4 +1,4 @@
 ignore:
     - "manage.py"
     - "diplomacyservice/wsgi.py"
-    - "provinces/tests"
+    - "provinces/tests/.*"
