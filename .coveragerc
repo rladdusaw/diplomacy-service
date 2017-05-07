@@ -2,3 +2,5 @@
 source = .
 omit =
     ./provinces/test/*
+    ./diplomacyservice/wsgi.py
+    ./manage.py
