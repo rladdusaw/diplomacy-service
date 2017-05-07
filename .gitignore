@@ -1,3 +1,4 @@
 db.sqlite3
 *.pyc
 provinces/migrations/
+diplomacyservice/__pycache__/
