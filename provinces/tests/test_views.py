@@ -40,6 +40,3 @@ class ProvinceViewTest(TestCase):
         response = view(request)
         user_response = OrderedDict([('count', 2), ('next', None), ('previous', None), ('results', [OrderedDict([('id', 1), ('username', 'Ryan'), ('country', [1])]), OrderedDict([('id', 2), ('username', 'admin'), ('country', [])])])])
         self.assertEqual(user_response, response.data)
-
-    def test_should_fail(self):
-        self.fail('travis ci test')
