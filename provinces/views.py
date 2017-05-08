@@ -24,6 +24,7 @@ class CountryDetail(generics.RetrieveAPIView):
 class UserList(generics.ListAPIView):
     queryset = User.objects.all()
     serializer_class = UserSerializer
+    permissions_classes = (permissions.IsAdminUser)
 
 class UserDetail(generics.ListAPIView):
     queryset = User.objects.all()
