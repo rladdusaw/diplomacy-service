@@ -1,6 +1,6 @@
 [run]
 source = .
 omit =
-    ./provinces/test/*
+    test*.py
     ./diplomacyservice/wsgi.py
     ./manage.py
